@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Poppins:ital,wght@0,500;0,700;1,100;1,200;1,500;1,700&display=swap');
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Codigo para la cabecera de la página */
+
+header{
+    align-items: center;
+    display: flex;
+    height: 174px;
+    justify-content: space-between;
+    padding: 65px 165px;
+    position: absolute;
+    width: 100%;
+}
+
+p{
+    color: #242E52;
+    font-size: 20px;
+    text-align: center;
+}
+
+span{
+    margin: 1rem;
+}
+
+.boton{
+    align-items: center;
+    background-color: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-color: #F3603B;
+    border-radius: 50px;
+    color: #FFFFFF ;
+    display: flex;
+    flex-direction: row;
+    height: 44px;
+    justify-content: center;
+    padding: 10px;
+    width: 134px;
+}
+
+/* código para la sección de gráfico */
+
+.box1{
+    display: inline-block;
+    position: absolute;
+    margin: 15% 10%;
+    width: 80%;
+}
+
+.texto1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 500px;
+    height: 198px; 
+}
+
+.titulop{
+    Color: #232C50;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 66px;
+    letter-spacing: -0.035 em;
+    text-align: left;
+}
+.contenidop{
+    color: #000000;
+    font-weight: normal;
+    font-size: 16.5584px;
+    line-height: 157.1%;
+    padding: 5% 20% 5% 0px;
+    text-align: left;
+}
+
+.intro{
+    margin-left: 50%;
+}
+
+/* Código para sección informativa */
+
+.informativo{
+    display: flex;
+    position: absolute;
+    margin: 53% 10%;
+    width: 80%;
+}
+
+.pregunta{
+    display: inline-block;
+    flex-direction: column;
+    width: 40%;
+}
+
+.question{
+    color: #232851;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+    align-items: center;
+    text-align: left;
+}
+
+.informacion{
+    color: #000000;
+    font-weight: normal;
+    font-size: 16.5584px;
+    line-height: 157.1%;
+    align-items: center;
+    text-align: left;
+    padding: 5% 20% 5% 0px;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    width: 50%;
+}
+
+.numero{
+    display: inline-block;
+    align-items: center;
+    background-color: #F3603B;
+    border-color: #F3603B;
+    border-radius: 30px;
+    color: #FFFFFF ;
+    height: 44px;
+    justify-content: center;
+    padding: 10px 25px;
+    width: 70px;
+    position: relative;
+    gap: 10px;
+    margin-left: 8rem;
+}
+
+.idea{
+    display: inline-block;
+    color:#323851;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-left: 1.4rem;
+}
+
+.complemento{
+    display: inline-block;
+    color: #B3B2B7;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    align-items: center;
+    text-align: left;
+    letter-spacing: -0.01em;
+    margin-left: 14rem;
+}
+
+/* Codigo para sección de testimoniales */
+
+.testimonios{
+    display: flex;
+    height: 219px;
+    justify-content: center;
+    width: 100%;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 90% auto;
+    position: absolute;
+    width: 90%;
+    
+}
+
+.encabezado{
+    font-weight: 700;
+    color: #242E53;
+    font-size: 39.2143px;
+    line-height: 156.6%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin: 90% auto;
+    margin-left: 39%;
+
+}
+
+div{
+    flex-direction: column;
+    position: relative;
+    width: 445px;
+    height: 300px;
+    flex-direction: column;
+    margin: 15% auto;
+    justify-content: space-evenly;
+    background-color: #FAFAFA;
+}
+
+.avatar{
+    position: relative;
+    justify-content: center;
+    left: 34%;
+    bottom: 20%;
+
+}
+
+.nombre{
+    font-size: 16.0714px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #3F4868;
+}
+
+.descripcion{
+    color:#B9B9C1;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 156.6%;
+    text-align: center;
+}
+
+.get{
+    align-items: center;
+    background-color: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-color: #F3603B;
+    border-radius: 50px;
+    color: #FFFFFF ;
+    height: 44px;
+    padding: 10px;
+    width: 134px;
+    position: absolute;
+    right: 50%;
+    justify-content: center;
+    margin: 125% auto;
+    left: 46%;
+}
+
+/* Código para el footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 130%;
+}
+
+.principal{
+    background-color: #F3613C;
+    width: 100%;
+    height: 224px;
+}
+
+.texto_footer{
+    display: flex;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    initial-letter: -0.05em;
+    text-align: left;
+    margin: 4% 13%;
+    width: 465px;
+    height: 96px;
+}
+
+.get_footer{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-color: #FFFFFF;
+    border-radius: 50px;
+    color: #F3603B ;
+    height: 44px;
+    padding: 10px;
+    width: 134px;
+    justify-content: center;
+    position: relative;
+    left: 80%;
+    bottom: 60%;
+}
+
+.menu{
+    background-color: #1E1E26;
+    display: flex;
+    width: 100%;
+    height: 247px;
+}
+
+.img_footer{
+    height: 23.74px;
+    position: relative;
+    top: 20%;
+    left: 13%;
+}
+
+a{
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+    position: relative;
+    top: 70%;
+    left: 4%;
+    margin-left: 0.8%;
+}
+
+ul,
+.lista2{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 2.5%;
+}
+
+input{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.go{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 63px;
+    height: 42px;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    border-radius: 50px;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.menu p{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    color: #8C8C94;
+    width: 230px;
+    height: 19.85px;
+    margin-left: 75%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+/* Código responsive para mobile */
+
+@media screen and ( max-width: 375px) {
+    
+    /* Código para header mobile*/
+
+    body{
+        width: 100%;
+    }
+    header{
+        height: 100px;
+        padding: 20px 30px;
+    }
+
+    header img{
+        width: 85px;
+        height: 15px;
+    }
+
+    span, 
+    header .boton{
+        display: none;
+    }
+
+    /*Código para position column*/ 
+    .box1,
+    .texto1,
+    .informativo,
+    .contenedor, 
+    footer .principal,
+    footer .menu{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    /* Código para primera sección*/
+    
+    .intro{
+        display: flex;
+        justify-content: center;
+        order: 1;
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    .texto1{
+        position: absolute;
+        order:0;
+        margin-top: 105%;
+    }
+
+    .titulop, 
+    .contenidop, 
+    .intro{
+        width:100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .titulop{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .contenidop{
+        font-size: 14px;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .contenidop, 
+    .informacion,
+    .complemento{
+        color:#B9B9C1;
+    }
+
+    /* Código para sección informativa*/
+    .informativo{
+        margin-top: 200%;
+    }
+
+    .pregunta .question{
+        font-size: 28px;
+        line-height: 35px;
+        width: 320px;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .informacion,
+    .complemento{
+        font-size: 15px;
+        padding: 5%;
+        width: 320px;
+        text-align: center;
+    }
+
+    .numero{
+        margin-left: 0%;
+    }
+
+    .texto2{
+        width: 360px;
+        margin-left: -10%;
+    }
+
+    .idea{
+        margin-left: -0.2%;
+    }
+
+    .complemento{
+        margin-left: -5%;
+        text-align: left;
+        width: 370px;
+        font-weight: lighter;
+    }
+    /* Para seccion testimoniales*/
+
+    .tarjeta1, .tarjeta3{
+        display: none;
+    }
+
+    .testimonios .get{
+    margin-top: 600%;
+    }
+    .testimonios .encabezado{
+    margin-top: 440%;
+    margin-left: 20%;
+    font-size: 30px;
+    }
+
+    .tarjeta2{
+        margin-top: 470%;
+        width: 350px;
+        justify-content: center;
+    }
+
+    .contenedor{
+        margin-left: 0%;
+    }
+    /*Código para footer*/
+
+    footer{
+        margin-top: 600%;
+    }
+
+    footer .principal{
+        height: 400px;
+        width: 375px;
+        font-size: 60px;
+        flex-direction: column;
+    }
+
+    footer .menu{
+        height: 500px;
+        width: 375px;
+        flex-direction: row;
+    }
+
+    .texto_footer{
+        width: 350px;
+        margin: 20% 0 0 0;
+        text-align: center;
+    }
+
+    .get_footer{
+        margin-top: 20%;
+        justify-content: center;
+        left: 25%;
+        bottom: 0%;
+    }
+
+    input,
+    .go{
+    position: absolute;
+    margin-bottom: 100%;
+    }
+
+    .go{
+    margin-left: 70%;
+    }
+
+    ul,
+    .lista2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    position: absolute;
+    text-align: left;
+    }
+
+    .lista2{
+        margin-left: 50%;
+    }
+
+    a{
+    width: 100%;
+    }
+
+    .menu img{
+    margin-top: 80%;
+    }
+
+    .menu p{
+    margin-left: 10%;
+    margin-top: 115%;
+    }
+}
+
+
+
