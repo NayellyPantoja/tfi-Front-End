@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Poppins:ital,wght@0,500;0,700;1,100;1,200;1,500;1,700&display=swap');
 
 *{
+    box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* Codigo para la cabecera de la página */
@@ -32,9 +32,9 @@ span{
 .boton{
     align-items: center;
     background-color: #F3603B;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     border-color: #F3603B;
     border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     color: #FFFFFF ;
     display: flex;
     flex-direction: row;
@@ -44,35 +44,44 @@ span{
     width: 134px;
 }
 
+.boton:hover{
+    background-color: #242E52;
+}
+
+.hamburguesa{
+    display: none;
+}
+
 /* código para la sección de gráfico */
 
 .box1{
     display: inline-block;
-    position: absolute;
     margin: 15% 10%;
+    position: absolute;
     width: 80%;
 }
 
 .texto1{
     display: flex;
     flex-direction: column;
+    height: 198px; 
     position: absolute;
     width: 500px;
-    height: 198px; 
 }
 
 .titulop{
     Color: #232C50;
-    font-weight: 700;
     font-size: 58px;
-    line-height: 66px;
+    font-weight: 700;
     letter-spacing: -0.035 em;
+    line-height: 66px;
     text-align: left;
 }
+
 .contenidop{
     color: #000000;
-    font-weight: normal;
     font-size: 16.5584px;
+    font-weight: normal;
     line-height: 157.1%;
     padding: 5% 20% 5% 0px;
     text-align: left;
@@ -86,8 +95,8 @@ span{
 
 .informativo{
     display: flex;
-    position: absolute;
     margin: 53% 10%;
+    position: absolute;
     width: 80%;
 }
 
@@ -98,132 +107,131 @@ span{
 }
 
 .question{
-    color: #232851;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 114.6%;
     align-items: center;
+    color: #232851;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 114.6%;
     text-align: left;
 }
 
 .informacion{
-    color: #000000;
-    font-weight: normal;
-    font-size: 16.5584px;
-    line-height: 157.1%;
     align-items: center;
-    text-align: left;
+    color: #000000;
+    font-size: 16.5584px;
+    font-weight: normal;
+    line-height: 157.1%;
     padding: 5% 20% 5% 0px;
+    text-align: left;
 }
 
 .texto2{
     display: flex;
-    flex-direction: column;
     display: inline-block;
+    flex-direction: column;
     width: 50%;
 }
 
 .numero{
-    display: inline-block;
     align-items: center;
     background-color: #F3603B;
     border-color: #F3603B;
     border-radius: 30px;
     color: #FFFFFF ;
+    display: inline-block;
+    gap: 10px;
     height: 44px;
     justify-content: center;
-    padding: 10px 25px;
-    width: 70px;
-    position: relative;
-    gap: 10px;
     margin-left: 8rem;
+    padding: 10px 25px;
+    position: relative;
+    width: 70px;
 }
 
 .idea{
-    display: inline-block;
-    color:#323851;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
     align-items: center;
+    color:#323851;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
     letter-spacing: -0.015em;
-    text-align: left;
+    line-height: 23px;
     margin-left: 1.4rem;
+    text-align: left;
 }
 
 .complemento{
-    display: inline-block;
-    color: #B3B2B7;
-    font-weight: 500;
-    font-size: 16.2984px;
-    line-height: 26px;
     align-items: center;
-    text-align: left;
+    color: #B3B2B7;
+    display: inline-block;
+    font-size: 16.2984px;
+    font-weight: 500;
+    line-height: 26px;
     letter-spacing: -0.01em;
     margin-left: 14rem;
+    text-align: left;
 }
 
 /* Codigo para sección de testimoniales */
 
 .testimonios{
     display: flex;
-    height: 219px;
+    height: 400px;
     justify-content: center;
     width: 100%;
 }
 
 .contenedor{
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 90% auto;
+    margin: 100% auto;
     position: absolute;
     width: 90%;
     
 }
 
 .encabezado{
-    font-weight: 700;
     color: #242E53;
+    font-weight: 700;
     font-size: 39.2143px;
-    line-height: 156.6%;
     letter-spacing: -0.01em;
-    text-align: center;
-    margin: 90% auto;
+    line-height: 156.6%;
+    margin: 100% auto;
     margin-left: 39%;
+    text-align: center;
 
 }
 
 div{
+    background-color: #FAFAFA;
     flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+    margin: 15% auto;
     position: relative;
     width: 445px;
-    height: 300px;
-    flex-direction: column;
-    margin: 15% auto;
-    justify-content: space-evenly;
-    background-color: #FAFAFA;
 }
 
 .avatar{
-    position: relative;
+    bottom: 20%;
     justify-content: center;
     left: 34%;
-    bottom: 20%;
+    position: relative;
 
 }
 
 .nombre{
+    color: #3F4868;
     font-size: 16.0714px;
     font-weight: 700;
     letter-spacing: -0.01em;
-    color: #3F4868;
 }
 
 .descripcion{
     color:#B9B9C1;
-    font-weight: normal;
     font-size: 16px;
+    font-weight: normal;
     line-height: 156.6%;
     text-align: center;
 }
@@ -231,107 +239,116 @@ div{
 .get{
     align-items: center;
     background-color: #F3603B;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     border-color: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
     color: #FFFFFF ;
     height: 44px;
+    justify-content: center;
+    left: 46%;
+    margin: 145% auto;
     padding: 10px;
-    width: 134px;
     position: absolute;
     right: 50%;
-    justify-content: center;
-    margin: 125% auto;
-    left: 46%;
+    width: 134px;
 }
+
+.get:hover{
+    background-color: #242E52;
+}
+
 
 /* Código para el footer*/
 
 footer{
     display: flex;
     flex-direction: column;
-    width: 100%;
     margin-top: 130%;
+    width: 100%;
 }
 
 .principal{
     background-color: #F3613C;
-    width: 100%;
     height: 224px;
+    width: 100%;
 }
 
 .texto_footer{
-    display: flex;
     color: #FFFFFF;
+    display: flex;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    initial-letter: -0.05em;
-    text-align: left;
-    margin: 4% 13%;
-    width: 465px;
     height: 96px;
+    initial-letter: -0.05em;
+    line-height: 48px;
+    margin: 4% 13%;
+    text-align: left;
+    width: 465px;
 }
 
 .get_footer{
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     border-color: #FFFFFF;
     border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    bottom: 60%;
     color: #F3603B ;
     height: 44px;
-    padding: 10px;
-    width: 134px;
     justify-content: center;
-    position: relative;
     left: 80%;
-    bottom: 60%;
+    padding: 10px;
+    position: relative;
+    width: 134px;
+}
+
+.get_footer:hover{
+    background-color: #242E52;
 }
 
 .menu{
     background-color: #1E1E26;
     display: flex;
-    width: 100%;
     height: 247px;
+    width: 100%;
 }
 
 .img_footer{
     height: 23.74px;
+    left: 13%;
     position: relative;
     top: 20%;
-    left: 13%;
 }
 
 a{
-    width: 20px;
-    height: 20px;
     color: #FFFFFF;
-    position: relative;
-    top: 70%;
+    height: 20px;
     left: 4%;
     margin-left: 0.8%;
+    position: relative;
+    top: 70%;
+    width: 20px;
 }
 
 ul,
 .lista2{
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 40px;
     align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
     margin-left: 15%;
     margin-top: 2.5%;
 }
 
 form{
     background-color: #FFFFFF;
-    padding: 10px;
-    width: 201px;
-    height: 44px;
     border-radius: 50px;
+    height: 44px;
     margin-top: 3%;
     margin-left: 5%;
+    padding: 10px;
+    width: 201px;
 }
 
 input{
@@ -339,30 +356,30 @@ input{
 }
 
 .go{
-    padding: 10px;
-    gap: 10px;
-    width: 63px;
-    height: 42px;
     background-color: #F3603B;
-    color: #FFFFFF;
     border-radius: 50px;
+    color: #FFFFFF;
+    gap: 10px;
+    height: 42px;
     margin-left: 4%;
     margin-top: -0.7%;
+    padding: 10px;
     position: absolute;
+    width: 63px;
 }
 
 .menu p{
+    color: #8C8C94;
     display: flex;
     flex-direction: column;
-    font-weight: 500;
     font-size: 12.5px;
-    line-height: 18px;
-    color: #8C8C94;
-    width: 230px;
+    font-weight: 500;
     height: 19.85px;
+    line-height: 18px;
     margin-left: 75%;
-    margin-top: 10%;
+    margin-top: 12%;
     position: absolute;
+    width: 230px;
 }
 
 /* Código responsive para mobile */
@@ -380,8 +397,8 @@ input{
     }
 
     header img{
-        width: 85px;
         height: 15px;
+        width: 85px;
     }
 
     span, 
@@ -391,6 +408,11 @@ input{
 
     .box1 .boton{
         margin-left: 30%;
+    }
+
+    .hamburguesa{
+        width: 25px;
+        display: flex;
     }
 
     /*Código para position column*/ 
@@ -410,29 +432,28 @@ input{
         display: flex;
         justify-content: center;
         order: 1;
-        width: 80%;
         margin-top: 10%;
+        width: 80%;
     }
 
     .texto1{
-        position: absolute;
-        order:0;
         margin-top: 105%;
+        position: absolute;
         width: 100%;
     }
 
     .titulop, 
     .contenidop, 
     .intro{
-        width:100%;
-        text-align: center;
         margin-left: 0%;
+        text-align: center;
+        width:100%;
     }
 
     .titulop{
-        width: 100%;
         font-size: 30px;
         line-height: 40px;
+        width: 100%;
     }
 
     .contenidop{
@@ -455,17 +476,17 @@ input{
     .pregunta .question{
         font-size: 28px;
         line-height: 35px;
-        width: 320px;
         padding: 5%;
         text-align: center;
+        width: 320px;
     }
 
     .informacion,
     .complemento{
         font-size: 15px;
         padding: 5%;
-        width: 320px;
         text-align: center;
+        width: 320px;
     }
 
     .numero{
@@ -473,9 +494,9 @@ input{
     }
 
     .texto2{
+        margin-left: -10%;
         margin-top: 15%;
         width: 360px;
-        margin-left: -10%;
     }
 
     .idea{
@@ -483,10 +504,10 @@ input{
     }
 
     .complemento{
+        font-weight: lighter;
         margin-left: -5%;
         text-align: left;
         width: 360px;
-        font-weight: lighter;
     }
     /* Para seccion testimoniales*/
 
@@ -495,14 +516,14 @@ input{
     }
 
     .testimonios .get{
-    margin-top: 550%;
-    margin-left: -13%;
-    
+        margin-left: -13%;
+        margin-top: 550%;
     }
+
     .testimonios .encabezado{
-    margin-top: 420%;
-    margin-left: 15%;
-    font-size: 30px;
+        font-size: 30px;
+        margin-left: 15%;
+        margin-top: 420%;
     }
 
     .complemento{
@@ -510,27 +531,25 @@ input{
     }
 
     .tarjeta2{
-        margin-top: 420%;
         height: 200px;
-        width: 350px;
         justify-content: center;
+        margin-top: 420%;
+        width: 350px;
     }
 
     .tarjeta2 .nombre{
         margin-top: -10%;
     }
 
-
     .tarjeta2 img{
-        width: 25%;
         margin-left: 3.5%;
+        width: 25%;
     }
 
     .contenedor{
         margin-left: -3%;
         width: 90%;
     }
-
 
     /*Código para footer*/
 
@@ -539,48 +558,54 @@ input{
     }
 
     footer .principal{
-        height: 400px;
-        width: 375px;
-        font-size: 60px;
-        padding-left: 3.5%;
         flex-direction: column;
+        font-size: 60px;
+        height: 400px;
+        padding-left: 3.5%;
+        width: 375px;
     }
 
     footer .menu{
+        flex-direction: row;
         height: 500px;
         width: 375px;
-        flex-direction: row;
     }
 
     .texto_footer{
-        width: 350px;
         margin: 20% 0% 0% 0%;
         text-align: center;
+        width: 350px;
     }
 
     .get_footer{
-        margin-top: 20%;
+        bottom: 0%;
         justify-content: center;
         left: 29.5%;
-        bottom: 0%;
+        margin-top: 20%;
     }
 
-    input,
+    form,
     .go{
-    position: absolute;
-    margin-top: 15%;
+        margin-left: 10%;
+        margin-top: 15%;
+        position: absolute;
     }
 
     .go{
-    margin-left: 70%;
+        margin-left: 30%;
+        margin-top: -5%;
+    }
+
+    .go:hover{
+        background-color: #242E52;
     }
 
     ul,
     .lista2{
-    margin-top: 40%;
-    position: absolute;
-    text-align: left;
-    margin-left: -1;
+        margin-left: -1;
+        margin-top: 40%;
+        position: absolute;
+        text-align: left;
     }
 
     .lista2{
@@ -588,19 +613,19 @@ input{
     }
 
     a{
-    width: 100%;
-    margin-left: -25%;
-    left:0%;
+        left:0%;
+        margin-left: -25%;
+        width: 100%;
     }
 
     .menu img{
-    margin-top: 80%;
-    margin-left: 18%;
+        margin-left: 18%;
+        margin-top: 80%;
     }
 
     .menu p{
-    margin-left: 20%;
-    margin-top: 120%;
+        margin-left: 20%;
+        margin-top: 120%;
     }
 }
 
